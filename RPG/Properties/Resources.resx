@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Snowboi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snowboi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_0004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_0004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbyssC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbyssC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaperC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stickboi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stickboi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_fire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dungeon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dungeon21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mount4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mount41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursed_Cast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursed_Cast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slayer_idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slayer_idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slime1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slime1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Poison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Poison.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_charge1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_charge1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_burned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_burned.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursed_idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursed_idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlemode_forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlemode_forest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stickboi_potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stickboi_potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charastat0001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charastat0001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursed_Skill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursed_Skill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Battle_Plains" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Battle_Plains.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlimeCast1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlimeCast1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stickboi_Skill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stickboi_Skill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winning.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaperA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaperA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chargeup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chargeup1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Abyss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Abyss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game_Shop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Fire.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miko_Cast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miko_Cast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miko_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miko_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ATATC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ATATC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Abyssal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Abyssal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlimeA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlimeA1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RiftC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RiftC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rift1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rift1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stickboi_Atk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stickboi_Atk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Forest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forest21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frenzy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frenzy1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EyeA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_0005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_0005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame0003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame0003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlimeA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlimeA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_lifesteal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_lifesteal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_0000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charastat0002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charastat0002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stickboi_Guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stickboi_Guard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charastat0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charastat0000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbyssalA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbyssalA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame0002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame0002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frenzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frenzy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Stor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game_Stor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mount3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mount31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ATAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ATAT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KnightA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KnightA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_guts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_guts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Guts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Guts.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charastat0003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charastat0003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slime2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slime2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Fire1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Fire1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Stor5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game_Stor5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charge.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Forest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forest11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Run away" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Run away.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASlimeC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASlimeC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SnowboiC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SnowboiC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KnightC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KnightC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlimeC2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlimeC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dungeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dungeon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Ice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Ice1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Electro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Electro.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stickboi_Cast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stickboi_Cast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Forest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forest31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbyssalC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbyssalC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbyssA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbyssA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RockA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RockA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chargeup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chargeup.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbyssQueenC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbyssQueenC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Stor4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game_Stor4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_dizzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_dizzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASlimeA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASlimeA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Stor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game_Stor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASlime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASlime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame00002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame00002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mount1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mount11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stickboi_idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stickboi_idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame0001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame0001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stickboi_idle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stickboi_idle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_frozen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_frozen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlemode_dungeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlemode_dungeon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_frenzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_frenzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plains2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plains21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlemode_mount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlemode_mount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ATATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ATATA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlemode_rift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlemode_rift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlimeC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlimeC.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlemode_plain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlemode_plain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_poison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_poison.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Haste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Haste.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_haste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_haste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miko_Atk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miko_Atk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlimeCast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlimeCast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slayer_Cast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slayer_Cast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EyeC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Forest4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forest41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game_Stor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Game_Stor3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Lifesteal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Lifesteal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_0003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_0003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RockC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RockC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RiftA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RiftA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursed_Atk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursed_Atk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slayer_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slayer_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Riftup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Riftup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plains1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plains11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slayer_Guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slayer_Guard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_0001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_0001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Defeated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Defeated.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miko_idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miko_idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_poisoned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_poisoned.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame0000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlimeC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlimeC.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miko_Skill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miko_Skill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame00001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame00001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursed_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursed_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SnowboiA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SnowboiA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_00001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_00001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_elec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_elec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slayer_Atk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slayer_Atk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statues_charge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statues_charge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stick Template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stick Template.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ail_Ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ail_Ice.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame0004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame0004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion_0002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Potion_0002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mount2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mount21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slayer_Skill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slayer_Skill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miko_Guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miko_Guard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursed_Guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursed_Guard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbyssQueenA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbyssQueenA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbyssQueen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbyssQueen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Knight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
